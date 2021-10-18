@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Colour </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+
+		body {
+			background-color: lightgrey;
+		}
+
+		ul.menu{
+			background-color: grey;
+			padding: 5px;
+			overflow: visible;
+        		display: flex;
+        		justify-content: center;
+		}
+
+		ul.menu li
+		{
+			list-style: none;
+			display: inline;
+			font-size: 20px;
+			margin-left: 110px;
+			margin-right: 100px;
+			overflow: hidden;
+			float: left;
+       		 	padding-left: 5px;
+        		padding-right: 20px;
+		}
+
+		ul.menu li a
+		{
+			text-decoration: none;
+			color: white;
+
+			display: block;
+			text-align: center;
+        		padding: 5px 5px;	
+		}
+		
+		li a:hover 
+		{
+        		background-color: grey;
+      		}
+
+		
+
+		div.main
+		{
+			max-width: 2200px;
+			margin: 10px;
+			background: lightgrey;
+			overflow: auto;
+		}
+
+		div.gallery
+		{
+			margin: 20px;
+			float: left;
+			width: 230px;
+			margin-left: 35px;
+		}
+
+		div.gallery img
+		{
+			width: 100%;
+			height: auto;
+			clip-path: square();
+		} 
+
+		div.caption
+		{
+			padding: 15px;
+			text-align: center;
+			color: black;
+		}
+		
+
+		
+	</style>
+</head>
+
+<body>
+
+	<ul class="menu">
+		<li class="active"><a href="Home.html"> Home </a></li>
+		<li><a href="Summary.html"> Summary </a></li>
+		<li><a href="Variants.html"> Variants </a></li>
+		<li><a href="Images.html"> Images </a></li>
+		<li><a href="Colour.html"> Colour </a></li>
+	</ul>
+
+	
+	<div class="main">
+
+		<div class="gallery">
+			<img src="https://stimg.cardekho.com/images/car-images/large/BMW/BMW-M-Series/BMW-M-Series-X6-M/Mineral-White.jpg?tr=w-898">
+			<div class="caption"> Mineral White X6 </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://stimg.cardekho.com/images/car-images/930x620/BMW/M-Series/7196/1570601101921/BMW-M5-Competition-Arctic-Grey-metallic_50555b.jpg?tr=w-898">
+			<div class="caption"> Artic Grey Metallic M5 </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://stimg.cardekho.com/images/car-images/large/BMW/BMW-M-Series/BMW-M-Series-M4-Coupe/Sakhir-Orange.jpg?tr=w-898">
+			<div class="caption"> Sakhir Orange M4 </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://stimg.cardekho.com/images/car-images/930x620/BMW/M-Series/7196/1570601101921/BMW-M5-Competition-Alvit-Grey-metallic_888075.jpg?tr=w-898">
+			<div class="caption"> Alvit Grey Metallic M3 </div>
+		</div>
+
+		<div class="gallery">
+			<img src="https://stimg.cardekho.com/images/car-images/930x620/BMW/BMW-M-Series/6274/1557740651737/223_Alpine-White_cdcdcd.jpg?tr=w-898">
+			<div class="caption"> Alphine White M8 </div>
+		</div>
+		
+	</div>
+	
+
+		
+</body>
+
+</html>

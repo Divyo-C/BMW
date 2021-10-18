@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Variants </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+
+		body {
+			background-color: lightgrey;
+		}
+
+		ul.menu
+		{
+			background-color: grey;
+			padding: 5px;
+			overflow: visible;
+        		display: flex;
+        		justify-content: center;
+		}
+
+		ul.menu li
+		{
+			list-style: none;
+			display: inline;
+			font-size: 20px;
+			margin-left: 110px;
+			margin-right: 100px;
+			overflow: hidden;
+			float: left;
+       		 	padding-left: 5px;
+        		padding-right: 20px;
+		}
+
+		ul.menu li a
+		{
+			text-decoration: none;
+			color: white;
+
+			display: block;
+			text-align: center;
+        		padding: 5px 5px;	
+		}
+		
+		li a:hover 
+		{
+        		background-color: grey;
+      		}
+
+		div.bmw
+		{
+			background-image:
+    			linear-gradient(to bottom, rgba(192,192,192,0.52), rgba(169,169,169,0.73)),
+   	 		url('https://www.bmw-m.com/content/dam/bmw/marketBMW_M/common/all-models/m-automobile/m4coupe/2020/bmw-m4-competition-cp-03.jpg/jcr:content/renditions/cq5dam.resized.img.1680.large.time1600853807544.jpg');
+    			width: auto;
+    			height: 500px;
+    			background-size: contain;
+    			color: white;
+    			padding: 20px;
+			margin-left: 3px;
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+
+		table.variants
+		{
+			color: black;
+			border-spacing: 10px;
+			margin-left: 10px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<ul class="menu">
+		<li class="active"><a href="Home.html"> Home </a></li>
+		<li><a href="Summary.html"> Summary </a></li>
+		<li><a href="Variants.html"> Variants </a></li>
+		<li><a href="Images.html"> Images </a></li>
+		<li><a href="Colour.html"> Colour </a></li>
+	</ul>
+
+	<div class="bmw">
+		<table class="variants">
+  			<tr>
+    				<th><b> Variants </th></b>
+    				<th> Ex-showroom Price </th></b>
+  			</tr>
+  			<tr>
+    				<td><b> BMW M4 </td></b>
+    				<td><b> ₹1.16 Crore </td></b>
+  			</tr>
+			<tr>
+    				<td><b> BMW M5 </td></b>
+    				<td><b> ₹1.62 Crore </td></b>
+  			</tr>
+			<tr>
+    				<td><b> BMW M8 </td></b>
+    				<td><b> ₹2.72 Crore </td></b>
+  			</tr>
+			<tr>
+    				<td><b> BMW X6</td></b>
+    				<td><b> ₹96.90 Lakhs </td></b>
+  			</tr>
+			<tr>
+    				<td><b> BMW X5 </td></b>
+    				<td><b> ₹3.43 Crore </td></b>
+  			</tr>
+			<tr>
+    				<td><b> BMW M3 </td></b>
+    				<td><b> ₹1.30 Crore </td></b>
+  			</tr>
+			<tr>
+    				<td><b> BMW X4 </td></b>
+    				<td><b> ₹66.68 Lakhs </td></b>
+  			</tr>
+			<tr>
+    				<td><b> BMW X3 </td></b>
+    				<td><b> ₹57.50 Lakhs </td></b>
+  			</tr>
+		</table>
+	</div>
+
+</body>
+
+</html>
